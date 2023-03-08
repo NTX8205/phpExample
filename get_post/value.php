@@ -9,7 +9,7 @@
 <body>
     <?php
         $getValue = isset($_GET["getValue"])? $_GET["getValue"]:"noValue";
-        $postValue =isset( $_POST["postValue"])? $_POST["postValue"]:"noValue";
+        $postValue = isset( $_POST["postValue"])? $_POST["postValue"]:"noValue";
     ?>
     <h1><?php echo "getValue :" . $getValue; ?></h1>
     <h1><?php echo "postValue :" . $postValue; ?></h1>

@@ -7,9 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo "embed 1"?>
-    <?php echo "<h2>embed 2</h2>"?>
-    <h1><?php echo "embed 3"?></h1>
+    <?php echo "echo embed 1"?>
+    <?php echo "<h2>echo embed 2</h2>"?>
+    <h1><?php echo "echo embed 3"?></h1>
 
+    <?php print "print embed 1"?>
+    <?php print "<h2>print embed 2</h2>"?>
+    <h1><?php print "print embed 3"?></h1>
 </body>
 </html>
