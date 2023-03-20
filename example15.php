@@ -7,13 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./get_post/value.php" method="get">
+    <!-- 用form表示表單區塊 -->
+    <!-- action 表示將值傳送到指定網頁位置 -->
+    <!-- method 表示利用POST、GET方法傳送 -->
+    <form action="example16.php" method="get">
         <h1>method: Get</h1>
+        <!-- name 決定傳送值的名稱 value 為預設值-->
         <input type="text" name="getValue"value="method->get">
+        <!-- submit 表示將值傳送出去-->
         <input type="submit" value="send">
     </form>
 
-    <form action="./get_post/value.php" method="post">
+    <form action="example16.php" method="post">
         <h1>method: Post</h1>
         <input type="text" name="postValue" value="method->post">
         <input type="submit" value="send">

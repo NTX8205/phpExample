@@ -8,13 +8,14 @@
 </head>
 <body>
     <?php
+        //判斷是否有GET或是POST的值，有就取得，沒有就設成noValue
         $getValue = isset($_GET["getValue"])? $_GET["getValue"]:"noValue";
         $postValue = isset( $_POST["postValue"])? $_POST["postValue"]:"noValue";
     ?>
     <h1><?php echo "getValue :" . $getValue; ?></h1>
     <h1><?php echo "postValue :" . $postValue; ?></h1>
     <button>
-        <a href="../index.php">返回上一頁</a>
+        <a href="example15.php">返回上一頁</a>
     </button>
 </body>
 </html>
